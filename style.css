@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
+  background-size: cover;
   font-family: 'Antic Slab', serif;
   color: #FFF;
   display: flex;
