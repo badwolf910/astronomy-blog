@@ -5,11 +5,10 @@
 }
 
 body {
-  background-image: url(images/space3.jpg);
+  background-image: url(images/space5.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-position: right;
   font-family: 'Antic Slab', serif;
   color: #FFF;
   display: flex;
