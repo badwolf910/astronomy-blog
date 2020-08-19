@@ -7,24 +7,36 @@
     <title>Astronomy Blog</title>
   </head>
   <body>
+    <div class="topnav-centered">
+      <a href="#" class="active"></a>
+    </div>
+    <div class="topnav">
+      <a href="/aboutme.html">About Me</a>
+
+      <div class="topnav-right">
+        <a href="/videos.html">Images</a>
+      </div>
+    </div>
     <h1>Astronomy Blog</h1>
 
-    <div class="filter-container">
-      <input
-        type="text"
-        id="filter"
-        class="filter"
-        placeholder="Filter posts..."
-      />
-    </div>
+    <div class="full">
+      <div class="filter-container">
+        <input
+          type="text"
+          id="filter"
+          class="filter"
+          placeholder="Filter posts..."
+        />
+      </div>
 
-    <div id="posts-container"></div>
+      <div id="posts-container"></div>
 
-    <div class="loader">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <script src="script.js"></script>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
